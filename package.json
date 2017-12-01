@@ -2,10 +2,10 @@
   "name": "mern",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && cp -r server/views/ dist && node dist/index.js"
+    "start": "tsc && node dist/app.js"
   },
   "author": "",
   "license": "BSD-2-Clause",
